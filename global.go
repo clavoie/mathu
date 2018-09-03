@@ -1,11 +1,9 @@
 package mathu
 
-import "math"
-
-var (
+const (
 	// Epsilon64 is the smallest positive float64 value that is significant in numeric
 	// operations or comparisons
-	Epsilon64 = math.Nextafter(1.0, 2.0) - 1.0
+	Epsilon64 = float64(7.)/3 - float64(4.)/3 - float64(1.)
 
 	// NegEpsilon64 is the smallest positive float64 value that is significant in
 	// numeric operations or comparisons
